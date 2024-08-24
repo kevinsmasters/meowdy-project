@@ -46,6 +46,22 @@ footer#contact {
   z-index: 10;
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+}
+.card {
+  align-content: center;
+  text-align: center;
+  padding-top: 1rem;
+  height: 100%
+}
+.card img {
+  text-align: center;
+}
+
 @media (max-width: 990px) {
   .grid {
     grid-template-columns: 1fr 1fr;

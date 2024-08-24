@@ -5,8 +5,8 @@
   </div>
 </div>
 <div class="grid">
-  <div class="g-col-6 g-col-md-4">
-    {% for project in site.projects %}
+  {% for project in site.projects %}
+    <div class="g-col-6 g-col-md-4">
       <div class="card shadow-sm">
         <a href="{{ project.url }}" target="_blank">
           <img src="{{ project.img }}" alt="{{ project.title }}" />
@@ -20,6 +20,6 @@
           </div>
         </div>
       </div>
-    {% endfor %}
-  </div>
+    </div>
+  {% endfor %}
 </div>
