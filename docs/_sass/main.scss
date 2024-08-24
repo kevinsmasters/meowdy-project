@@ -1,3 +1,26 @@
-.test {
-  font-weight: bold;
+body {
+  background-color: #272846;
+  color: #AFBBBB;
+  font-size: 1.4rem;
+}
+
+main {
+  position: relative;
+  z-index: 10;
+}
+
+main #h1, main h2, main h3 {
+  color: #fff;
+}
+
+#palmBg {
+  position:fixed;
+  right: 0;
+  top: 200px;
+  width: 400px;
+  height: 589px;
+  background-image: url(/assets/images/moon-palm2a.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
 }
