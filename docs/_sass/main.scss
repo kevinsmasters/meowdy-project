@@ -1,3 +1,74 @@
-.test {
-  font-weight: bold;
+body {
+  background-color: #272846;
+  color: #AFBBBB;
+  font-size: 1.4rem;
+}
+
+main {
+  position: relative;
+  z-index: 10;
+}
+
+main #h1, main h2, main h3 {
+  color: #fff;
+}
+
+#palmBg {
+  position:fixed;
+  right: 0;
+  top: 200px;
+  width: 400px;
+  height: 589px;
+  background-image: url(/assets/images/moon-palm2a.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+
+.navbar {
+  border-bottom: 2px solid #292942;
+}
+.navbar.bg-dark-nu {
+  background-color: #1C1D31;
+}
+.navbar-brand img {
+  opacity: .60;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255,255,255,.75);
+}
+
+#homeHero.bg-dark-nu {
+  background-color: #1C1D31;
+}
+footer#contact {
+  position: relative;
+  z-index: 10;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+}
+.card {
+  align-content: center;
+  text-align: center;
+  padding-top: 1rem;
+  height: 100%
+}
+.card img {
+  text-align: center;
+}
+
+@media (max-width: 990px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
 }
