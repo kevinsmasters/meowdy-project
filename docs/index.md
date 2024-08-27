@@ -12,3 +12,4 @@ title: Home
   <div class="col-md-2"></div>
 </div>
 {% include projects.html %}
+{% include contact.html %}
