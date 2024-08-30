@@ -27,6 +27,7 @@
                         console.log('SUCCESS!');
                         var myModal = new bootstrap.Modal(document.getElementById("exampleModal"), {});
                         myModal.show();
+                        document.getElementById('contact-form').reset();
                     }, (error) => {
                         console.log('FAILED...', error);
                     });
