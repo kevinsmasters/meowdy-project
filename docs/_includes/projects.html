@@ -8,7 +8,7 @@
   {% for project in site.projects %}
     <div class="g-col-6 g-col-md-4">
       <div class="card shadow-sm">
-        <%= link_to project.url, target: '_blank' do %>
+        <a href="{{ project.link-url }}" target="_blank">
           <img src="{{ project.img }}" alt="{{ project.title }}" />
         <% end %>
         <div class="card-body">

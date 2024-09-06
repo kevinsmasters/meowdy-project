@@ -1,6 +1,6 @@
 ---
 title: AMNH Perissodactyls
-url: "https://research.amnh.org/paleontology/perissodactyl/"
+link-url: "https://research.amnh.org/paleontology/perissodactyl/"
 img: "/assets/images/amnh-perissodactyls.png"
 ---
 American Museum of Natural History Perissodactyls Research Site
