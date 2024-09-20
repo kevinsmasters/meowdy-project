@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Kevin Scott Masters | Full stack web developer
 ---
 {% include jumbotron.html %}
 <div class="row mb-3 mt-5">
